@@ -3,29 +3,32 @@ Algoritmo "semnome"
 // Professor   : Antonio Carlos Nicolodi 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
 // Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 23/03/2023
+// Data atual  : 21/03/2023
 Var
-  primeiroNumero, segundoNumero, soma , subtracao , multiplicacao, divisao: real
-  inicio
-  escreva("Digite o primeiro número: ")
-      leia(primeiroNumero)
-      
-  escreva("Digite o segundo número: ")
-      leia(segundoNumero)
-      
-      soma <- primeiroNumero + segundoNumero
-      subtracao <- primeiroNumero - segundoNumero
-      divisao <- primeiroNumero / segundoNumero
-      multiplicacao <- primeiroNumero * segundoNumero
-      
-      limpatela
-      
-      escreval("Primeiro número:", primeiroNumero)
-      escreval("Segundo  número:", segundoNumero)
-      
-      escreval("")
+// Seção de Declarações das variáveis 
+    n1, n2, soma, subtracao, multiplicacao, divisao: real
 
-      escreval("subtracao: ",subtracao)
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("digite um numero")
+leia(n1)
+escreval("digite outro numero")
+leia(n2)
 
-      
+escreval("primeiro numero =", n1)
+escreval("segundo numero =", n2)
+
+soma<- n1 + n2;
+escreval("soma =", soma)
+
+subtracao <- n1 - n2;
+escreval("subtracao =", subtracao)
+
+multiplicacao <- n1*n2;
+escreval("multiplicacao =", multiplicacao)
+
+divisao <- n1 / n2;
+escreval("divisao =", divisao)
+
+
 Fimalgoritmo
